@@ -6,7 +6,19 @@ namespace SingletonPattern.cs
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+           
+            LedgerSingleton s1 = LedgerSingleton.Instance;
+            LedgerSingleton s2 = LedgerSingleton.Instance;
+
+            // Test for same instance
+            if (s1 == s2)
+            {
+                Console.WriteLine("Objects are the same instance");
+            }
+
+            // Wait for user
+            Console.ReadKey();
         }
     }
 }

@@ -8,7 +8,7 @@ namespace SingletonPattern.cs
     {
         private static LedgerSingleton _instance = null;
         //Thread-Safefty
-        private static readonly object padlock = new object();
+        private static readonly Object padlock = new Object();
 
         LedgerSingleton()
         {
@@ -21,7 +21,7 @@ namespace SingletonPattern.cs
             {
                 lock (padlock)
                 {
-                    if (Instance == null)
+                    if (_instance == null)
                     {
                         _instance = new LedgerSingleton();
                     }
