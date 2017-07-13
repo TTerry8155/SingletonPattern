@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern.cs", "SingletonPattern.cs.csproj", "{4BC52307-D1A8-43DD-9526-4EE73C7C4791}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonPattern", "SingletonPattern.csproj", "{4BC52307-D1A8-43DD-9526-4EE73C7C4791}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
